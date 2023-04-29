@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+    <a class="navbar-brand" href="index.html">Rogers Aloo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="personal.html">Personal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://drive.google.com/file/d/1j70gahw8S-TrdIuOTdhcpctTAsQngNlq/view?usp=sharing" target="_blank">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Page Sections -->
+  <section id="home" class="bg-image bg-light">
+    <div class="container-fluid h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-5 text-left">
+          <h4 class="text-left">I am </h4>
+          <h2 class="main-name text-left">Rogers Aloo</h2>
+          <p class="portfolio-slogan "> Studious analyst and coder with 3+ years of experience. Inspired by impactful solutions to societal problems.</p>
+          <button class="main-button"   onclick="window.open('portfolio.html', '_blank')">My Projects</button>
+        </div>
+        <div class="profile-pic col-md-6">
+            <img src="assets/profile-pic.jpeg" alt="Profile Picture" class="img-fluid">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="about-title ">Personal Details</h1>
+          <p class="about-text"> I enjoy learning about new cultural practices, 
+            their origin, and their impact on people. I have tried out several entrepreneurship ideas. 
+            I co-founded a start-up called "Liala" in 2019 in Nairobi, Kenya. 
+            The main product was an e-commerce platform for the sale of car spare parts in Kenya. 
+            I am a beneficiary of an ODA program, "African Business Education Initiative for Youth" 
+            championed by the former Japanese Premier, the late Shinzo Abe. <br> 
+            <br>
+            Every day I push myself to learn something new, whether that be in startup entrepreneurship,
+            and data science among other current affairs. 
+            On top of this, I have been learning the Japanese language for the past 16 months. 
+            I also recently published a research paper in an international journal focusing on 
+            image processing and generative models.<br>
+            <br>
+            I am excited by the sweet spot where the business meets the technology and hence my strong interest in start-ups. 
+            Additionally, I have deliberately been working on projects that have a real societal impact in MaaS and healthcare.</p>
+            <button class="about-button"  onclick="window.open('about.html', '_blank')">About Me</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <h1 class="mb-5 text-center">Areas of Interest</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="text-center">
+          <i class="fas fa-users fa-3x mb-3"></i>
+          <h4 class="mb-3">Programming</h4>
+          <p class="text-muted">Experience with Python, R, SQL, JavaScript and Linux(Servers).</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="text-center">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h4 class="mb-3">Data Analysis</h4>
+          <p class="text-muted">Proficient in data cleaning, EDA, ETL  and visualization.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="text-center">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h4 class="mb-3">Machine Learning</h4>
+          <p class="text-muted">Experience with supervised and unsupervised learning algorithms.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="text-center">
+          <i class="fas fa-database fa-3x mb-3"></i>
+          <h4 class="mb-3">Data Engineering </h4>
+          <p class="text-muted">Experience with data pipelines(airflow, beam) and data warehouses.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="text-center">
+          <i class="fas fa-globe fa-3x mb-3"></i>
+          <h4 class="mb-3">DevOps</h4>
+          <p class="text-muted">Experience with Kubernetes, Docker, CI/CD, Cloud Compting(AWS, GCP) and IaC.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="text-center">
+          <i class="fas fa-users fa-3x mb-3"></i>
+          <h4 class="mb-3">Teamwork</h4>
+          <p class="text-muted">Experience collaborating with cross-functional teams.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Expertise section -->
+<section id="expertise" class="py-5 ">
+    <div class="container">
+      <h1 class="mb-5 text-center">Skills Expertise</h1>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>The bars indicates my confidence level with the skills.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Data Analysis</h4>
+          <p>Databases (SQL)</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">100%</div>
+          </div>
+          <p>Statistical Models</9>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+          <p>Visualizations (Tableau, PowerBI)</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+          <p>Data Pipelines (Apache Airflow, BigQuery)</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>Machine Learning</h4>
+          <p>Python</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+          <p>Computer Vision (Pytorch, Tensorflow)</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+          <p>Generative Models</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+          <p>Data Mining</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>DevOps/Infra</h4>
+          <p>Linux(server)</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+          <p>Docker, Kubernetes</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+          <p>Terraform, helm</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+          <p>Monitoring, Datadog</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Projects section -->
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="section-heading text-center">Sample Projects</h1>
+          <p class="section-subheading text-center">Check out my projects that span a range of domains</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="service-box">
+            <h4> <strong>Data Analysis</strong> </h4>
+            <p>Jan 2020 </p>
+            <a href="#"><img src="assets/health-access.jpeg" alt="Service 1"></a><br>
+            <hr>
+            <h4 class="service-heading">Providing access of medical health care in sub saharan Africa</h4>
+            <p class="text-muted">The project aimed to provide accessibility of healthcare and mobile penertation in Sub-saharan countries. It involed use of sentimental analysis for the questionnare responses, data mining and data visualizations in Tableau.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <h4> <strong>Data Engineering </strong> </h4>
+            <p>Nov 2022  </p>
+            <a href="#"><img src="assets/portfolio/airflow_gcp.png" class="img-thumbnail" alt="Service 2"></a><br>
+            
+            <hr>
+            <h4 class="service-heading">Airflow pipeline, for warehousing AWS SQS queues on BigQuery</h4>
+            <p class="text-muted">The project captures streaming data from mobile and web applications. Stores them in S3 as a datalake. Uses Apache airflow to process tranfrome the data and load to big query tables as the warehouse.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <h4> <strong>Machine Learning</strong> </h4>
+            <p>March 2022  </p>
+            <a href="#"><img src="assets/chest_image.jpeg" class="img-fluid" alt="Service 3"></a><br>
+            <hr>
+            <h4 class="service-heading">Reduction in of Medical Images dataset class imbalance using cycle GAN for Classification </h4>
+            <p class="text-muted">Generating of medical images using Cycle GAN, and Classification of the data set using the synthetic images for medical diagnosis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- Projects section -->
+  <section id="platforms" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="section-heading text-center">Platforms Present</h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="platform-box">
+            <h4 class="platform1-title text-center">GitHub</h4>
+            <a href="https://github.com/rogersaloo"><img src="assets/github-logo.png" class="img-fluid" alt="Service 3"></a><br>
+            <p class="platform1-subtitle center">My base code. I run most pipelines on Gitlab CI/CD</p>
+          </div>
+          <hr>
+        </div>
+        <div class="col-md-4">
+          <div class="platform-box">
+            <h4 class="platform2-title text-center">Medium</h4>
+            <a href="https://medium.com/@owitrogers"><img src="assets/medium-logo.png" class="img-fluid" alt="Service 3"></a><br>
+            <p class="platform2-subtitle">I write about clones of my projects here</p>
+          </div>
+          <hr>
+        </div>
+        <div class="col-md-4">
+          <div class="platform-box">
+            <h4 class="platform3-title text-center">Personal Blog</h4>
+            <a href="#"><img src="assets/blog-logo.png" class="img-fluid" alt="Service 3"></a><br>
+            <hr>
+            <p class="platform3-subtitle">I write about my learnings and debugging here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer section -->
+  <section id="footer" class="bg-secondary text-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-5">
+          <h5 cla>About this page</h5>
+          <p>This is a personal for Rogers Aloo. It showcases my work bodering  in data analysis, machine learning, devop and data engineering. It also provides information about my background, skills, and experience. </p>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact details</h5>
+          <p>You can contact me by email at rogersaloo07@gmail.com. <br> Alternatively, you can use the social platform below to contact me and for connections.</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <h5>Follow me</h5>
+          <ul class=" list-unstyled">
+            <li class="socials" ><a href="https://www.linkedin.com/in/rogers-aloo-58a363127/" target="_blank">LinkedIn</a></li>
+            <li class="socials" ><a href="[Your Twitter URL]" target="_blank">Twitter</a></li>
+            <li class="socials" ><a href="https://github.com/rogersaloo" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+</body>
+</html>

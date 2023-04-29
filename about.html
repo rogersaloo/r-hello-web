@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About - Rogers Aloo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+    <a class="navbar-brand" href="index.html">Rogers Aloo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="personal.html">Personal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://drive.google.com/file/d/1j70gahw8S-TrdIuOTdhcpctTAsQngNlq/view?usp=sharing" target="_blank">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- First section -->
+  <section id="about1" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h1 class="about1-title display-4">About Me</h1>
+          <p class="lead">A brief introduction of who I am and what I do</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second section -->
+  <section id="about2" class="py-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/profile-pic.jpeg" alt="Image description" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h3 class="personal-details">Personal Details</h3>
+          <p>Here's a few info about my Journey.</p>
+          <button class="details-button"   onclick="window.open('#questions', '_blank')">More Questions?</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Third section -->
+  <section id="about3" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>In 2019 after completing my undergraduate degree in statistics, I started seeking opportunities to apply my statical modeling skills.
+            I committed to self-learning through Massive Open Online Courses(MOOCs), where I gathered a wealth of information. Through this exposure,
+            I underwent a moment of self-reflection on my interests and committed to the art of data science and supportive technologies 
+            relating to data.
+          </p>
+          <p>Four years down the line, I have been able to work professionally as a data analyst, working on machine learning models, aspects of data engineering
+            , and recently DevOps. Through this diversified experience, I have kept my passion burning in the quest to achieve professional expertise and 
+            provide profitable contributions to teams and projects.  </p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+
+
+ <!-- Fourth section -->
+  <section>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12">
+              <h1 class="mb-4 text-center" >Experience</h2>
+              <div class="main-timeline">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox">
+                              <img src="assets/optimind_logo.webp" class="img">
+                             </span></div>
+                            <div class="content">
+                                <span class="year">Optimind Inc</span>
+                                <h3 class="title h4">Data Science Intern,</h3>
+                                <p class="period h4">Mar 2022 - Present</p>
+                                <p class="description">
+                                  My role is creating data pipelines for the route search team to test the performance of new app release(Ecosystem consists Apache airflow, Bigquery, GKE, AWS SQS) <br>
+                                  Load testing (k6) new APIs, Monitoring k8 services. Creating and testing CI/CD pipelines for provisioned resources on cloud.
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox"><img src="assets/yamaha_logo.jpeg" class="img" /></span></div>
+                            <div class="content">
+                                <span class="year">Yamaha Motors Co, Ltd</span>
+                                <h3 class="title h4">Intern, Mobility Service Division</h3>
+                                <p class="period h4">Aug 2021 - Sept 2021</p>
+                                <p class="description">
+                                  Interned at the Mobility Services Business Department which focuses on mobility related
+                                  services and business in new emerging markets with partnerships.
+                                  I provided a business plan and presented the market opportunity in integration of mobility
+                                  to healthcare logistics with the aim of achieving last mile delivery in the region.
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox"><img src="assets/catch.jpeg" class="img"></span></div>
+                            <div class="content">
+                                <span class="year">Catch Taxi</span>
+                                <h3 class="title h4">Data Analyst, EA Operations</h3>
+                                <p class="period h4">Aug 2021 - Sept 2021</p>
+                                <p class="description">
+                                  I was involved in the initial drafting of the business plan, road map  and seed/SeriesA investor 
+                                  pitch for the startup. After establishment I was  in charge of data analysis for fraud detection 
+                                  and calculation of customer lifetime value in Kenya and Ethiopia. During my work period, 
+                                  I was able to implement a simple customer segmentation model for RFM analysis to allow the marketing team to carry out targeted marketing.
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox"><img src="assets/ek.jpeg" class="img"></span></div>
+                            <div class="content">
+                                <span class="year">E&K Consulting Firm</span>
+                                <h3 class="title h4">Business Data Analyst</h3>
+                                <p class="period h4">Feb 2019 - Mar 2020</p>
+                                <p class="description">
+                                  I have worked at E&K Consulting Firm where I dealt extensively with exploratory data
+                                  analysis, predictive models, and data visualizations for health-related data. <br>
+                                  I was responsible for using data in the creation of various visualizations dashboards for storytelling. <br>
+                                  I dealt extensively with exploratory data analysis, predictive models, and data visualisations for health-related data. I was responsible for using data in the creation of various visualisations dashboards for storytelling. By the use of the data I was involved in projects on health financing and Go-To Market strategies for pharma companies in sub-Saharan Africa.
+                                  
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox"><img src="assets/liala.jpeg" class="img"></span></div>
+                            <div class="content">
+                                <span class="year">Liala</span>
+                                <h3 class="title 4">Co-Founder</h3>
+                                <p class="period h4">Nov 2018 - Jan 2022</p>
+                                <p class="description">
+                                  Liala is a retail automation mobile application for assured genuine parts at an affordable price.
+                                  Our aim was to provide retail automation services in the car auto parts industry. 
+                                  Pushing for the sale of genuine car parts by running constant promotions and offers to the car parts dealers, mechanics and individual car owners. 
+                                  Liala was a brain child of 3 university friends.
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox"><img src="assets/kpmg.jpeg" class="img"></span></div>
+                            <div class="content">
+                                <span class="year">KPMG East Africa</span>
+                                <h3 class="title h4">Data Analyst Intern</h3>
+                                <p class="period h4">Aug 2021 - Sept 2021</p>
+                                <p class="description">
+                                    Eu feugiat pretium nibh ipsum consequat. Et molestie ac feugiat sed lectus vestibulum mattis. Sit amet consectetur adipiscing elit duis tristique.  
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+     <!-- Fourth section -->
+  <section>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12">
+              <h1 class="mb-4 text-center" >Education</h2>
+              <div class="main-timeline">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox">
+                              <img src="" class="img">
+                             </span></div>
+                            <div class="content">
+                                <span class="year"> Nagoya Institute of Technology, JP</span>
+                                <h3 class="title h4">Msc Computer Science</h3>
+                                <p class="period h4">Apr 2021 - Mar 2023</p>
+                                <p class="description">
+                                  Research based engineering program where I focused my research topic in Image processing and genrative models.
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="circle"><span class="homebox"><img src="" class="img" /></span></div>
+                            <div class="content">
+                                <span class="year">University of Nairobi, KE</span>
+                                <h3 class="title h4">Bsc Statistics</h3>
+                                <p class="period h4">Jan 2014 - Sept 2018</p>
+                                <p class="description">
+                                  Explored all areas in Probability Modelling, Hypothesis Testing, Time Series Analysis. 
+                                  Theories of Estimation, Operation Research, Sample Surveys, Analysis of experimental designs etc
+                                </p>
+                                <div class="icon"><span></span></div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+  <!--Frequntly asked Questions-->
+  <!-- Fourth section -->
+    <section id="questions" class="py-5">
+      <div class="container">
+        <div class="accordion-body">
+        <div class="accordion">
+        <h3 class="mb-4 text-center" >Have questions about me?</h3>
+
+        <!-- <Question 1> -->
+        <div class="container">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How long have you been practicing machine learning?
+                </button>
+              </h3>
+            </div>
+          </div>
+            <!-- <div class="label">  <h4>How long have you been practicing machine learning?</h4></div> </h4> -->
+            <div class="content">  I have worked on ML projects since the year 2020. 
+              My first project was a sentimental analysis project on product perception. 
+              Later I was in charge of developing three systems for document fraud detection during the registration of Taxi drivers in Kenya.
+              I also helped create ML models and analysis of trip fraud detection and assisted the marketing team with RFM models for targeted 
+              advertising, discounts, and promotions.
+            </div>
+        </div>
+
+        <!-- <Question 2> -->
+        <div class="container">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How long have you been practicing data analytics?
+                </button>
+              </h3>
+            </div>
+          </div>
+            <div class="content">I have 3+ years of experience in data analytics. I have done analytics on top BI tools like 
+              Power BI and Tableau. Most of my previous work using Tableau is embedded on the 
+              E&K website and some visualization used health policy documents. I am also comfortable 
+              in EDA using SQL, pandas, and the generation of dashboards for technical investigation of logs using datadog dashboards.
+            </div>
+        </div>
+
+         <!-- <Question 3> -->
+          <div class="container">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h3 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Do you have any experience in devops and data engineering?
+                  </button>
+                </h3>
+              </div>
+            </div>
+              <!-- <div class="label">  <h4>How long have you been practicing machine learning?</h4></div> </h4> -->
+              <div class="content"> I have 1+ experience in DevOps and engineering of data through creating full pipelines. 
+                I have conducted a complete data lifecycle of creating a data pipeline using Apache airflow on streaming data from 
+                mobile apps and creating a BigQuery data warehouse.   The data pipeline enabled the replication of production 
+                infrastructure on GKE to monitor the performance of new app releases. </div>
+          </div>
+  
+          <!-- <Question 4> -->
+          <div class="container">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h3 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What kind of work do you see yourself doing?
+                  </button>
+                </h3>
+              </div>
+            </div>
+              <div class="content"> I'm interested in data science work to interpret business scenarios and help with their technical implementation.
+                I am confident that I possess strong data analytics skills, knowledge of business and operations, and software engineering skills. 
+                I am comfortable in a role as a data scientist, data/BI analyst, or ML developer. I'm able to handle DevOps tasks and engineering data for analytical purposes.  </div>
+          </div>
+
+           <!-- <Question 5> -->
+        <div class="container">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Are you adaptable to other industries apart from Mobility and healthcare?
+                </button>
+              </h3>
+            </div>
+          </div>
+            <!-- <div class="label">  <h4>How long have you been practicing machine learning?</h4></div> </h4> -->
+            <div class="content"> In the past, I have carried out most of my work on data dealing with healthcare and Mobility as a service. 
+              However, I am highly adaptable to data and business concepts in different domains.
+            </div>
+        </div>
+
+        <!-- <Question 6> -->
+        <div class="container">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How can you learn data science?
+                </button>
+              </h3>
+            </div>
+          </div>
+            <div class="content"> My journey to learning skills in software engineering and data analytics is self-taught, though I 
+              have a background in statistics, where I enjoy crunching numbers. Self-study mostly comes with many disappointments, 
+              but you have to keep moving on. Like me, you can utilize the MOOCs on sites like Coursera, Youtube, and Udemy, one of my 
+              recent favorites.</div>
+        </div>
+        </div>
+        </div>
+    
+  </section>
+  
+
+  <section id="footer" class="bg-secondary text-light">
+    <div class="container py-5">
+        <div class="row">
+        <div class="col-md-6">
+            <h5>About this page</h5>
+            <p>This is a personal website created by [Your Name]. It showcases my work as a data scientist and provides information about my background, skills, and experience.</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Contact details</h5>
+            <p>You can contact me by email at [Your Email Address]. Alternatively, you can use the form on the previous section to send me a message.</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <h5>Follow me</h5>
+            <ul class="list-unstyled">
+            <li><a href="[Your LinkedIn URL]" target="_blank">LinkedIn</a></li>
+            <li><a href="[Your Twitter URL]" target="_blank">Twitter</a></li>
+            <li><a href="[Your GitHub URL]" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+
+    <script src="app.js" type="text/javascript"></script>
+    
+</body>
+</html>
